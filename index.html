@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="معرض أعمال عبدالمحسن الغامدي - محلل بيانات">
+  <meta name="author" content="عبدالمحسن الغامدي">
+
+  <title>عبدالمحسن الغامدي | معرض الأعمال (Portfolio)</title>
+
+  <!-- الخطوط العربية الحديثة (Cairo و Tajawal من Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- أيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- ملف التنسيقات الرئيسي -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       1. شريط التنقل العلوي (Navbar)
+       ======================================================================== -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon">A</div>
+        <span>عبدالمحسن<span class="text-gradient">.</span></span>
+      </a>
+
+      <!-- روابط التنقل السريعة والمباشرة -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">الرئيسية</a>
+        <a href="#about" class="nav-link">نبذة عني</a>
+        <a href="#projects" class="nav-link">المشاريع</a>
+        <a href="#contact" class="nav-link">تواصل معي</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-envelope"></i>
+          <span>تواصل معي</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       2. القسم الرئيسي (Hero Section) - بسيط وواضح
+       ======================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- المحتوى التعريفي المباشر -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span>محلل بيانات | Data Analyst</span>
+          </div>
+
+          <h1 class="hero-title">
+            مرحباً، أنا <span class="text-gradient">عبدالمحسن الغامدي</span>
+          </h1>
+
+          <p class="hero-description">
+            مهتم بتحليل واستكشاف البيانات، بناء لوحات التحكم التفاعلية، وتحويل الأرقام ومجموعات البيانات إلى رؤى مفيدة
+            وواضحة تدعم اتخاذ القرارات.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>تصفح المشاريع</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>تواصل معي</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <!-- قنوات التواصل السريعة -->
+          <div class="hero-socials">
+            <span class="hero-socials-label">روابط سريعة:</span>
+            <a href="https://github.com" target="_blank" class="social-icon-btn" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-icon-btn" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://wa.me/" target="_blank" class="social-icon-btn" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- بطاقة رمزية أنيقة -->
+        <div class="hero-visual">
+          <div class="hero-avatar-card">
+            <div class="avatar-wrapper">
+              <div class="avatar-placeholder">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+            </div>
+
+            <h3 class="avatar-name">عبدالمحسن الغامدي</h3>
+            <p class="avatar-role">Data Analyst | محلل بيانات</p>
+
+            <div class="avatar-tags">
+              <span class="avatar-tag">Power BI</span>
+              <span class="avatar-tag">SQL</span>
+              <span class="avatar-tag">Python</span>
+              <span class="avatar-tag">Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3. قسم "نبذة عني" (About Me) - مركز ومباشر
+       ======================================================================== -->
+  <section class="section" id="about" style="background: rgba(255, 255, 255, 0.01);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">نبذة</span>
+        <h2 class="section-title">نبذة عني</h2>
+      </div>
+
+      <div style="max-width: 850px; margin: 0 auto; text-align: center;">
+        <p class="about-text" style="font-size: 1.15rem; line-height: 2;">
+          أنا محلل بيانات شغوف بالتعامل مع البيانات واستخراج الأنماط المفيدة منها. أركز على استخدام الأدوات التحليلية
+          الحديثة مثل <strong>SQL</strong> و<strong>Python</strong> و<strong>Power BI</strong> و<strong>Excel</strong>
+          لتنظيف ومعالجة البيانات، وتصميم لوحات تحكم تفاعلية وتقارير دقيقة تساعد في فهم مؤشرات الأداء وحل المشكلات.
+        </p>
+
+        <!-- الأدوات والتقنيات الأساسية -->
+        <div style="margin-top: 2rem;">
+          <span
+            style="font-size: 0.95rem; color: var(--text-muted); display: block; margin-bottom: 1rem; font-weight: 600;">الأدوات
+            والتقنيات التي أستخدمها:</span>
+          <div class="skills-pills" style="justify-content: center;">
+            <span class="skill-pill"><i class="fa-solid fa-database text-gradient"></i> SQL</span>
+            <span class="skill-pill"><i class="fa-brands fa-python text-gradient"></i> Python (Pandas / Seaborn)</span>
+            <span class="skill-pill"><i class="fa-solid fa-chart-simple text-gradient"></i> Power BI & DAX</span>
+            <span class="skill-pill"><i class="fa-solid fa-file-excel text-gradient"></i> Advanced Excel</span>
+            <span class="skill-pill"><i class="fa-solid fa-filter text-gradient"></i> Data Cleaning</span>
+            <span class="skill-pill"><i class="fa-solid fa-magnifying-glass-chart text-gradient"></i> EDA &
+              Insights</span>
+            <span class="skill-pill"><i class="fa-brands fa-github text-gradient"></i> GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       4. قسم معرض المشاريع (Projects) - التركيز الأساسي
+       ======================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">معرض الأعمال</span>
+        <h2 class="section-title">المشاريع</h2>
+        <p class="section-subtitle">نماذج من مشاريع تحليل البيانات ولوحات التحكم التي قمت ببنائها</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- المشروع 1: لوحة تحكم Power BI -->
+        <div class="project-card">
+          <div class="project-img-wrapper">
+            <span class="project-badge-tag">Power BI</span>
+            <div class="project-preview-mock">
+              <i class="fa-solid fa-chart-line project-mock-badge"></i>
+              <span>لوحة تحكم تفاعلية للمبيعات</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Power BI</span>
+              <span class="project-tag">DAX</span>
+              <span class="project-tag">SQL</span>
+            </div>
+            <h3 class="project-title">لوحة تحكم أداء ونمو المبيعات</h3>
+            <p class="project-description">
+              بناء لوحة تحكم تفاعلية لتحليل بيانات المبيعات، ومقارنة الإيرادات الشهرية والسنوية، وتحديد المنتجات الأكثر
+              طلباً وربحية عبر رسوم بيانية ديناميكية.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> معاينة
+                التقرير</a>
+              <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> كود المشروع</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- المشروع 2: استكشاف البيانات Python EDA -->
+        <div class="project-card">
+          <div class="project-img-wrapper">
+            <span class="project-badge-tag">Python EDA</span>
+            <div class="project-preview-mock">
+              <i class="fa-brands fa-python project-mock-badge"></i>
+              <span>تحليل استكشافي لسلوك العملاء</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Seaborn</span>
+            </div>
+            <h3 class="project-title">التحليل الاستكشافي لبيانات العملاء</h3>
+            <p class="project-description">
+              تنظيف واستكشاف مجموعة بيانات واقعية لاكتشاف العوامل المؤثرة على تفاعل العملاء وأنماط الشراء، مع تمثيل
+              العلاقات والارتباطات الإحصائية بصرياً.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> تصفح
+                التحليل</a>
+              <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> مستودع GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- المشروع 3: تقرير تفاعلي Excel -->
+        <div class="project-card">
+          <div class="project-img-wrapper">
+            <span class="project-badge-tag">Excel</span>
+            <div class="project-preview-mock">
+              <i class="fa-solid fa-file-excel project-mock-badge"></i>
+              <span>تقرير تفاعلي لمتابعة مؤشرات الأداء</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Excel</span>
+              <span class="project-tag">Pivot Tables</span>
+              <span class="project-tag">KPIs</span>
+            </div>
+            <h3 class="project-title">تقرير إحصائي لمتابعة العمليات (KPIs)</h3>
+            <p class="project-description">
+              تصميم تقرير Excel تفاعلي يعتمد على الجداول المحورية (Pivot Tables) ومخططات المقارنة لتقييم الأداء الشهري
+              وتسهيل قراءة النتائج.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> معاينة
+                الملف</a>
+              <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> تفاصيل المشروع</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       5. قسم التواصل (Contact Section) - مباشر وبسيط
+       ======================================================================== -->
+  <section class="section" id="contact" style="background: rgba(255, 255, 255, 0.01);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">تواصل</span>
+        <h2 class="section-title">تواصل معي</h2>
+        <p class="section-subtitle">يسعدني تواصلك لأي استفسار أو فرصة تعاون أو عمل</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- قنوات التواصل المباشر -->
+        <div class="contact-info-col">
+          <div class="contact-info-list">
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="contact-info-title">البريد الإلكتروني</div>
+                <div class="contact-info-value">Abdulmhsen.k7@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <div class="contact-info-title">واتساب / هاتف</div>
+                <div class="contact-info-value">+966 538463274</div>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <div class="contact-info-title">الموقع</div>
+                <div class="contact-info-value" style="direction: rtl; text-align: right;">المملكة العربية السعودية
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- وسائل التواصل -->
+          <div class="contact-social-box">
+            <h4 class="contact-social-title">حساباتي على المنصات:</h4>
+            <div class="contact-social-icons">
+              <a href="https://github.com" target="_blank" class="social-icon-btn" title="GitHub"><i
+                  class="fa-brands fa-github"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="social-icon-btn" title="LinkedIn"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://wa.me/" target="_blank" class="social-icon-btn" title="WhatsApp"><i
+                  class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- نموذج المراسلة البسيط -->
+        <div class="contact-form-card">
+          <form class="contact-form" action="#" method="POST"
+            onsubmit="event.preventDefault(); alert('شكراً لتواصلك! سيتم الرد عليك قريباً.');">
+            <div class="form-group">
+              <label for="name" class="form-label">الاسم</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="اكتب اسمك هنا" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">الرسالة</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="اكتب رسالتك أو استفسارك هنا..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              <span>إرسال الرسالة</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       6. التذييل (Footer) - نظيف وبسيط
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <div class="logo-icon" style="width: 32px; height: 32px; font-size: 1rem;">A</div>
+          <span>عبدالمحسن<span class="text-gradient">.</span></span>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">الرئيسية</a>
+          <a href="#about" class="footer-link">نبذة عني</a>
+          <a href="#projects" class="footer-link">المشاريع</a>
+          <a href="#contact" class="footer-link">تواصل معي</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 جميع الحقوق محفوظة لـ <strong>عبدالمحسن الغامدي</strong></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
